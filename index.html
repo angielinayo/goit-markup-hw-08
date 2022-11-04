@@ -26,13 +26,6 @@
                 <li><a href="" class="site-nav__link link">Контакти</a></li>
             </ul>
             </nav>
-
-            <button type="button" class="mobile-menu-btn" data-menu-open>
-                <svg class="mobile-menu-btn_icon" width="40" height="40">
-                    <use href="./images/icons.svg#icon-burger"></use>
-                </svg>
-            </button>
-
             <ul class="contact-nav list">
                 <li class="contact-nav__wrp"><a href="mailto:info@devstudio.com" class="contact-nav__link link">
                 <svg class="contact-nav__icon" width="16" height="12">
@@ -41,7 +34,6 @@
                 info@devstudio.com
             </a>
         </li>
-
                 <li class="contact-nav__wrp"><a href="tel:+380961111111" class="contact-nav__link link">
                 <svg class="contact-nav__icon" width="10" height="16">
                     <use href="./images/icons.svg#icon-smartphone"></use>
@@ -50,25 +42,29 @@
             </a>
         </li>
             </ul>
+            <button type="button" class="mobile-menu-btn" data-menu-open>
+                <svg class="mobile-menu-btn_icon" width="40" height="40">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
 
-        <div class="mobile-menu" data-menu>
-            <div class="mobile-menu__container">
+
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu is-open" data-menu>
+            <div class="mobile-menu__container container">
                 <button class="mobile-menu__btn-close" data-menu-close>
                     <svg class="mobile-menu__icon-close" width="40" height="40">
                         <use href="./images/icons.svg#icon-close"></use>
                     </svg>
                 </button>
 
-                <div class="mobile-menu__flex-container">
-
-                <nav class="mobile-menu__navigation">
                 <ul class="mobile-menu__links list">
                     <li class="mobile-menu__wrp"><a href="./index.html" class="mobile-menu__link mobile-menu__link_current link" mobile-menu__link_current link">Студія</a></li>
                     <li class="mobile-menu__wrp"><a href="./portfolio.html" class="mobile-menu__link link">Портфоліо</a></li>
                     <li class="mobile-menu__wrp"><a href="" class="mobile-menu__link link">Контакти</a></li>
                     </ul>
-                </nav>
 
                 <ul class="mobile-menu__contacts list">
                     <li class="mobile-menu__wrp"><a href="tel:+380961111111" class="mobile-menu__phone-link link">
@@ -87,7 +83,6 @@
                     <li class="mobile-menu__socials-wrp"><a href="" class="mobile-menu__socials-link link">Facebook</a></li>
                     <li class="mobile-menu__socials-wrp"><a href="" class="mobile-menu__socials-link link">LinkedIn</a></li>
                 </ul>
-            </div>
             </div>
         </div>
     </header>
