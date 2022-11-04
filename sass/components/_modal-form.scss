@@ -1,3 +1,16 @@
+@media screen and (max-width: 1199px) {
+  .agreement {
+  font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .agreement-link {
+    font-size: 14px;
+  }
+}
+
+
 .modal__btn-close {
   position: absolute;
   top: 8px;
@@ -148,8 +161,9 @@
   display: block;
 }
 
+
 .agreement-link {
-  font-size: 14px;
+
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
