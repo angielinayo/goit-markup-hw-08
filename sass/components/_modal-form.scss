@@ -89,7 +89,7 @@
   
   .modal-line__text:hover + &,
   .modal-line__text:focus + & {
-  fill: #2196F3;
+  fill: var(--accent-color);
 }
 }
 
