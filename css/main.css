@@ -766,6 +766,11 @@ button {
   letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 1199px) {
+  .works {
+    display: none;
+  }
+}
 .works {
   padding-top: 0;
 }
