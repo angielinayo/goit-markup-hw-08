@@ -20,13 +20,6 @@
     justify-content: space-between;
     align-items: center;
     }
-
-.mobile-menu-btn {
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    line-height: 0;
-    }
 }
 
 .logo {
@@ -40,6 +33,13 @@
 .logo__accent {
     color: var(--black-text-color);
 }
+
+.mobile-menu-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+  }
 
 @media screen and (min-width: 768px) {
     .mobile-menu-btn {
