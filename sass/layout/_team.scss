@@ -62,8 +62,9 @@
   }
   
 @media screen and (max-width: 767px) {
-    .team__list {
-        flex-direction: column;
+
+    .teammate:not(:last-child) {
+        margin-bottom: 30px;
     }
 
     .teammate {
