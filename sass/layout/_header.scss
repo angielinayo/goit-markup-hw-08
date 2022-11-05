@@ -10,7 +10,7 @@
 
 .header {
     background-color: var(--white-text-color);
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid #ececec;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -44,11 +44,6 @@
 @media screen and (min-width: 768px) {
     .mobile-menu-btn {
         display: none;
-    } 
-
-    .header {
-        background-color: var(--white-text-color);
-        border-bottom: 1px solid #ECECEC;
     }
 
     .header-container {
