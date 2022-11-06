@@ -1123,7 +1123,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__flex-wrapper {
     align-items: baseline;
-    gap: 70px;
+    flex-wrap: nowrap;
   }
 }
 
@@ -1254,7 +1254,7 @@ button {
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__flex-wrapper {
     display: flex;
     align-items: baseline;
@@ -1263,10 +1263,16 @@ button {
   }
 }
 @media screen and (min-width: 1200px) {
+  .connect {
+    margin-right: auto;
+  }
   .address__item:not(:last-child) {
     margin-bottom: 9px;
   }
   .subscribe__input {
     margin-right: 12px;
+  }
+  .footer__address-wrapper {
+    margin-right: 70px;
   }
 }/*# sourceMappingURL=main.css.map */
