@@ -43,6 +43,7 @@
 .header__portfolio {
     border-bottom: 1px solid #ececec;
 }
+
 @media screen and (min-width: 768px) {
     .mobile-menu-btn {
         display: none;
@@ -79,6 +80,7 @@
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
         padding: 32px 0;
+
     &:hover,
     &:focus {
         color: var(--accent-color);
@@ -141,6 +143,19 @@ margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1200px) {
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.site-nav__link {
+    padding: 0;
+}
+
+.site-nav__link_current::after {
+    bottom: -33px;
+}
 
     .page-navigation {
         column-gap: 93px;

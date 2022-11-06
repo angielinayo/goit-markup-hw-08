@@ -584,6 +584,16 @@ button {
   }
 }
 @media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  .site-nav__link {
+    padding: 0;
+  }
+  .site-nav__link_current::after {
+    bottom: -33px;
+  }
   .page-navigation {
     column-gap: 93px;
   }
